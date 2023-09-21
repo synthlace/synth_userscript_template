@@ -1,0 +1,26 @@
+diff --git a/dist/rollup-plugin-userscript-metablock.common.js b/dist/rollup-plugin-userscript-metablock.common.js
+index d25b478086e31e143a31bd84c7a184ea26bb6ed1..38c61680a44aa03732dd00b8799b69a4150fe1ba 100644
+--- a/dist/rollup-plugin-userscript-metablock.common.js
++++ b/dist/rollup-plugin-userscript-metablock.common.js
+@@ -562,6 +562,7 @@ const loadFile = (filename = './metablock.json') => {
+       break;
+     }
+ 
++    case '.cjs':
+     case '.js': {
+       if (!path__default['default'].isAbsolute(filename)) {
+         pathInfo.dir = path__default['default'].join(process.cwd(), pathInfo.dir);
+diff --git a/dist/rollup-plugin-userscript-metablock.esm.js b/dist/rollup-plugin-userscript-metablock.esm.js
+index b06f4d5c76adb11669543c4dbd753f2e378da6b8..5f12d94f0f59d33c92717406f60cca51b9ac36c1 100644
+--- a/dist/rollup-plugin-userscript-metablock.esm.js
++++ b/dist/rollup-plugin-userscript-metablock.esm.js
+@@ -549,7 +549,8 @@ const loadFile = (filename = './metablock.json') => {
+       Object.assign(keys, SIMPLEST_META, JSON.parse(fs.readFileSync(filename)));
+       break;
+     }
+-
++    
++    case '.cjs':
+     case '.js': {
+       if (!path.isAbsolute(filename)) {
+         pathInfo.dir = path.join(process.cwd(), pathInfo.dir);
