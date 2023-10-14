@@ -3,4 +3,5 @@ module.exports = {
   name: 'New Script',
   namespace: 'SynthMonkey Scripts',
   grant: 'none',
+  match: ['*://*/*'],
 }
