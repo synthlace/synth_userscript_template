@@ -34,7 +34,7 @@
     "eslint": "^8.51.0",
     "eslint-config-prettier": "^9.0.0",
     "globals": "^13.23.0",
-    "lodash-es": "^4.17.21",
+    "lodash-es": "^4.17.23",
     "prettier": "3.0.3",
     "rollup": "^4.1.0",
     "rollup-plugin-userscript-metablock": "^0.3.3",
