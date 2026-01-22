@@ -6,7 +6,7 @@ settings:
 
 patchedDependencies:
   rollup-plugin-userscript-metablock@0.3.3:
-    hash: 2pf4uax6spp2652pxz7le4ckvm
+    hash: 6c7fb5deffe400fa7066534ed40779bdbbcacd67228f96316041bfdd46293c01
     path: patches/rollup-plugin-userscript-metablock@0.3.3.patch
 
 importers:
@@ -50,8 +50,8 @@ importers:
         specifier: ^13.23.0
         version: 13.23.0
       lodash-es:
-        specifier: ^4.17.21
-        version: 4.17.21
+        specifier: ^4.17.23
+        version: 4.17.23
       prettier:
         specifier: 3.0.3
         version: 3.0.3
@@ -60,7 +60,7 @@ importers:
         version: 4.1.0
       rollup-plugin-userscript-metablock:
         specifier: ^0.3.3
-        version: 0.3.3(patch_hash=2pf4uax6spp2652pxz7le4ckvm)
+        version: 0.3.3(patch_hash=6c7fb5deffe400fa7066534ed40779bdbbcacd67228f96316041bfdd46293c01)
       tslib:
         specifier: ^2.6.2
         version: 2.6.2
@@ -435,6 +435,7 @@ packages:
   eslint@8.51.0:
     resolution: {integrity: sha512-2WuxRZBrlwnXi+/vFSJyjMqrNjtJqiasMzehF0shoLaW7DzS3/9Yvrmq5JiT66+pNjiX4UBnLDiKHcWAr/OInA==}
     engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
+    deprecated: This version is no longer supported. Please see https://eslint.org/version-support for other options.
     hasBin: true
 
   espree@9.6.1:
@@ -606,8 +607,8 @@ packages:
     resolution: {integrity: sha512-iPZK6eYjbxRu3uB4/WZ3EsEIMJFMqAoopl3R+zuq0UjcAm/MO6KCweDgPfP3elTztoKP3KtnVHxTn2NHBSDVUw==}
     engines: {node: '>=10'}
 
-  lodash-es@4.17.21:
-    resolution: {integrity: sha512-mKnC+QJ9pWVzv+C4/U3rRsHapFfHvQFoFB92e52xeyGMcX6/OlIl78je1u8vePzYZSkkogMPJ2yjxxsb89cxyw==}
+  lodash-es@4.17.23:
+    resolution: {integrity: sha512-kVI48u3PZr38HdYz98UmfPnXl2DXrpdctLrFLCd3kOx1xUkOmpFPx7gCWWM5MPkL/fD8zb+Ph0QzjGFs4+hHWg==}
 
   lodash.merge@4.6.2:
     resolution: {integrity: sha512-0KpjqXRVvrYyCsX1swR/XTK0va6VQkQM6MNo7PqW77ByjAhoARA8EfrP1N4+KlKj8YS0ZUCtRT/YUuhyYDujIQ==}
@@ -1382,7 +1383,7 @@ snapshots:
     dependencies:
       p-locate: 5.0.0
 
-  lodash-es@4.17.21: {}
+  lodash-es@4.17.23: {}
 
   lodash.merge@4.6.2: {}
 
@@ -1472,7 +1473,7 @@ snapshots:
     dependencies:
       glob: 7.2.3
 
-  rollup-plugin-userscript-metablock@0.3.3(patch_hash=2pf4uax6spp2652pxz7le4ckvm):
+  rollup-plugin-userscript-metablock@0.3.3(patch_hash=6c7fb5deffe400fa7066534ed40779bdbbcacd67228f96316041bfdd46293c01):
     dependencies:
       chalk: 4.1.2
       debug: 4.3.4
